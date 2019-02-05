@@ -548,4 +548,13 @@ docker-compose up -d
 docker-compose down
 ```
 
+```
+Go to /public directory and run:
+
+rm storage
+
+Go to Laravel root directory and run:
+
+php artisan storage:link
+```
 credits @bradtraversy
